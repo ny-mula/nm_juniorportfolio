@@ -46,7 +46,7 @@ body {
 }
 
 .navbar-right a:hover {
-  color: hsl(334, 100%, 83%);
+  color: hwb(334 66% 0%);
 }
 
 /* =========================
@@ -164,7 +164,7 @@ body {
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: #cccccc;
+  color: #ffffff;
 }
 
 /* =========================
