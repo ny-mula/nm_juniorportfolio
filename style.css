@@ -1,5 +1,5 @@
 /* =========================
-   GLOBAL / RESET....
+   GLOBAL / RESET
 ========================= */
 * {
   box-sizing: border-box;
@@ -8,8 +8,8 @@
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: hsl(334, 100%, 67%);
-  color: #f0f0f0;
+  background-color: #ffd6e7;
+  color: #4d4d4d;
   background-image: url("156204-abstract-light-pink-background.jpg");
   background-size: cover;
   background-repeat: repeat-y;
@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: lch(75.85% 38.32 356.94)2 356.94);
+  background-color: #ffc2d6;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -40,13 +40,13 @@ body {
 }
 
 .navbar-right a {
-  color: white;
+  color: #7a4b5f;
   text-decoration: none;
   font-weight: bold;
 }
 
 .navbar-right a:hover {
-  color: hwb(334 66% 0%);
+  color: #ff8fb8;
 }
 
 /* =========================
@@ -62,11 +62,11 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: #ff0fa3f2;
+  background-color: rgba(255, 214, 231, 0.92);
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 12px rgba(212, 106, 146, 0.15);
   display: flex;
   flex-direction: column;
 }
@@ -85,18 +85,19 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid oklab(0% 0 0);
+  border: 4px solid #ffb6c1;
   object-fit: cover;
 }
 
 .bio-text h1 {
-  margin-bottom: 0.2
+  margin-bottom: 0.2em;
+  color: #d46a92;
 }
 
 .bio-text h4 {
   margin-top: 0;
   font-weight: normal;
-  color: lab(0% 0 0);
+  color: #7a4b5f;
 }
 
 /* =========================
@@ -119,19 +120,19 @@ body {
 
 .reflection {
   flex: 1;
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 1em;
   border-radius: 8px;
 }
 
 .reflection h3 {
   margin-top: 0;
-  color: lch(0% 0 0);
+  color: #d46a92;
 }
-`
+
 .reflection p {
   font-size: 0.95em;
-  color: hsl(0, 0%, 100%);
+  color: #4d4d4d;
 }
 
 /* =========================
@@ -156,7 +157,7 @@ body {
   height: 80px;
   width: 80px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid #ffb6c1;
   object-fit: cover;
 }
 
@@ -166,7 +167,7 @@ body {
 footer {
   text-align: center;
   font-size: 0.85em;
-  color: hsl(0, 0%, 0%);
+  color: #7a4b5f;
 }
 
 /* =========================
